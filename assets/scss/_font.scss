@@ -1,0 +1,11 @@
+/* important: to tailwind work both in Dev and Prod you need to specfiy all the css paths from wp root.
+    See the example below
+
+@font-face {
+    font-family: 'Yekan';
+    src: url('/wp-content/themes/{hodcode}/assets/fonts/{font-file}.woff2') format('woff2');
+    font-weight: 900; 
+    font-style: normal;
+}
+
+*/    

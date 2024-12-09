@@ -1,0 +1,10 @@
+{
+    "require": {
+        "kavenegar/php": "^1.2"
+    },
+    "autoload": {
+        "classmap": [
+            "event/models"
+        ]
+    }
+}
