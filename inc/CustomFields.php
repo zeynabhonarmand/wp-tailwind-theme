@@ -169,7 +169,7 @@ class CustomFields
             }
         );
     }
-    static function add_select_field($fieldName, $title, $options, $postType = 'post',)
+    static function add_select_field($fieldName, $title, $options, $postType = 'post')
     {
         add_action('add_meta_boxes', function () use ($postType, $fieldName, $title, $options) {
             add_meta_box(

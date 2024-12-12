@@ -23,7 +23,7 @@ Also the following features are put together
 
 ### Development environment
 For development first add the following const in wp-config.php in wordpress root:
-`define("IS_VITE_DEVELOPMENT", true);`
+``
 
 Then run `npm run dev` inside theme directory. Now you can see css changes instantly on the 
 
